@@ -1,0 +1,13 @@
+import math
+
+# I changed the wording to the example in SG4
+X1 = float(input("Enter X1: "))
+Y1 = float(input("Enter Y1: "))
+X2 = float(input("Enter X2: "))
+Y2 = float(input("Enter Y2: "))
+
+# Calculate the distance between (X1, Y1) and (X2, Y2)
+distance = math.sqrt(math.pow(X2 - X1, 2) + math.pow(Y2 - Y1, 2))
+print("Distance between the two points:", distance)
+
+# Using built-in math functions makes calculating complex equations efficient and straightforward.
